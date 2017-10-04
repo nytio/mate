@@ -1,0 +1,13 @@
+#!/bin/bash
+sleep 10
+/usr/lib/ubuntu-mate/ubuntu-mate-tilda -t 20
+sleep 20
+if ps aux | grep conky | grep -v grep
+then
+  echo "Ok" &
+else
+  conky & 
+fi
+exit
+# Configuración anterior
+#-c ~/.ConkyWizardTheme/conky.conf &
