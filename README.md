@@ -11,7 +11,7 @@ nano conky.conf
 sudo apt install lm-sensors 
 sudo sensors-detect
 
-sudo apt install fortune
+sudo apt install fortunes
 sudo apt install fortunes-es
 sudo apt install fortunes-es-off 
 
